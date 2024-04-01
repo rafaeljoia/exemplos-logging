@@ -1,0 +1,4 @@
+2024-04-01 14:22:27.633 | INFO     | __main__:soma:6 - 2
+2024-04-01 14:30:11.933 | INFO     | __main__:soma:8 - 5
+2024-04-01 14:30:11.934 | INFO     | __main__:soma:9 - voce digitou corretamente
+2024-04-01 14:30:26.360 | CRITICAL | __main__:soma:11 - voce tem que digitar valores corretos

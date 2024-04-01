@@ -1,0 +1,20 @@
+2024-04-01T15:21:08.002063-0300 INFO Chamando função 'soma' com args (2, '3') e kwargs {} utils_log.py
+2024-04-01T15:21:08.003064-0300 ERROR Exceção capturada em 'soma': unsupported operand type(s) for +: 'int' and 'str' utils_log.py
+Traceback (most recent call last):
+
+  File "C:\Users\rafas\Documents\workshop-dados\WORKSHOP-DADOS-4\exemplo_00.py", line 8, in <module>
+    print(soma(2 ,"3"))
+          └ <function soma at 0x000001E157CB1A60>
+
+> File "C:\Users\rafas\Documents\workshop-dados\WORKSHOP-DADOS-4\utils_log.py", line 27, in wrapper
+    result = func(*args, **kwargs)
+             │     │       └ {}
+             │     └ (2, '3')
+             └ <function soma at 0x000001E15565F1F0>
+
+  File "C:\Users\rafas\Documents\workshop-dados\WORKSHOP-DADOS-4\exemplo_00.py", line 6, in soma
+    return x + y
+           │   └ '3'
+           └ 2
+
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
